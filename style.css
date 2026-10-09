@@ -1,0 +1,41 @@
+body {
+    background: rgb(28, 28, 28);
+}
+header {
+    color: transparent;
+    background-image: linear-gradient(rgb(255, 166, 0), red);
+    background-clip: text;
+    border: 3px solid red;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0px 60px;
+    box-shadow: 2px 2px 16px 5px rgb(231, 83, 83);
+
+}
+#title {
+    margin: 1px;
+
+
+}
+a {
+    color: red;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 12px;
+    margin: 0px 13px;
+    transition: 0.3s ease;
+}
+a:hover {
+    box-shadow: 2px 2px 16px 3px rgb(231, 83, 83);
+}
+nav {
+    border: 3px solid rgb(255, 0, 0);
+    margin: 20px 0px;
+    padding: 8px;
+    border-radius: 300px;
+    display: flex;
+    justify-content: center;
+}
